@@ -1,0 +1,3 @@
+rootProject.name = 'Bioaccess'
+
+include ':app'
