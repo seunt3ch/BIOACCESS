@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { View,Text, StyleSheet, ActivityIndicator, AsyncStorage } from 'react-native'
-
+import WelcomeSceen from './WelcomeScreen';
 
  class AuthLoadingScreen extends Component {
    constructor(){

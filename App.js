@@ -23,7 +23,12 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import ProfileScreen from './src/Screens/ProfileScreen.js';
 
 const AuthStackNavigator = createStackNavigator({
-  Welcome:WelcomeScreen,
+  Welcome : {
+    screen: WelcomeScreen,
+    navigationOptions: {
+      header: null,
+    }
+  },
   SignIn:SignInScreen,
   SignUp:SignUpScreen,
 })
